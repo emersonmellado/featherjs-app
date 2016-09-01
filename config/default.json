@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "sqlite": "../data/featherjsApp.sqlite",
+  "public": "../public/",
+  "auth": {
+    "idField": "id",
+    "token": {
+      "secret": "fz3JsfkG5H4wP5GxVy2ZN9xPxxG/xWcZpKFXyRORdS8szWWE1AK98Ii2ZbvKFLU9na1mkx8N7v9RE6DZDBVwTg=="
+    },
+    "local": {}
+  }
+}
