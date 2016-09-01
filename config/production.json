@@ -1,10 +1,9 @@
 {
-  "host": "featherjs-app-app.feathersjs.com",
+  "host": "simple-chat-app.feathersjs.com",
   "port": 80,
-  "sqlite": "SQLITE_DB",
+  "nedb": "NEDB_BASE_PATH",
   "public": "../public/",
   "auth": {
-    "idField": "id",
     "token": {
       "secret": "FEATHERS_AUTH_SECRET"
     },

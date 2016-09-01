@@ -1,13 +1,13 @@
 {
   "host": "localhost",
   "port": 3030,
-  "sqlite": "../data/featherjsApp.sqlite",
+  "nedb": "../data/",
   "public": "../public/",
   "auth": {
-    "idField": "id",
     "token": {
-      "secret": "fz3JsfkG5H4wP5GxVy2ZN9xPxxG/xWcZpKFXyRORdS8szWWE1AK98Ii2ZbvKFLU9na1mkx8N7v9RE6DZDBVwTg=="
+      "secret": "bCtlP+ou3ohB6Z1t+ZP8PcnqFurntG2Pi0qIb+1FvCQ++CFmq+EV76yC64l81c5AWlvqEdUZCkQDEryg4sP9Hg=="
     },
-    "local": {}
+    "local": {},
+    "successRedirect": "/chat.html"
   }
 }
